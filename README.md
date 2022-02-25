@@ -9,4 +9,4 @@ GTA SA DE Menu System For Cleo Redux - this is a library/plugin for [Cleo Redux]
 
 GTA-SA-Trainer - One the first majour script mods released for GTA SA definitive edition that is basicaly a mod in game that lets you modify many things in game like player gravity, spawning in vehicles,  teleporting
 
-Pokemon Team Builder - A react.js project that I made to showcase my skills in react.js framework which function is to let you build Pokemon Teams for use in competivite Pokemon
+Pokemon Team Builder - A react.js project that I made to showcase my skills in react.js framework which function is to let you build Pokemon Teams for use in competivite Pokemon. You can view the live demo at this link https://yushaer.github.io/pokemon-team-builder/
