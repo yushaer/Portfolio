@@ -11,7 +11,7 @@ export default function Router(){
     return(
         <BrowserRouter>
         <Switch>
-        <Route exact path='/' component={TeamBuilder} />
+        <Route exact path='/pokemon-team-builder' component={TeamBuilder} />
         <Route exact path='/pokemon-battler' component={PokemonBattler} />
     </Switch>
 

@@ -13,7 +13,7 @@ import  '../../node_modules/jquery/dist/jquery'
 import $ from '../../node_modules/jquery/'
 import 'bootstrap/dist/js/bootstrap.min'
 
-
+import { Pokemon } from '../Pokemon';
  import 'bootstrap-select/dist/js/bootstrap-select.min'
  import 'popper.js/dist/popper.min'
  import Teams from './Teams'
@@ -23,7 +23,7 @@ import 'bootstrap/dist/js/bootstrap.min'
     Route,
     Link
   } from "react-router-dom";
- var Pokemon = require('../Pokemon');
+
 class PokemonList extends React.Component{
     constructor(props){
         super(props);

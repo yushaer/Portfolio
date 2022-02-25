@@ -1,4 +1,4 @@
-  class Pokemon{
+ export class Pokemon{
         height;
         weight;
   
@@ -101,4 +101,3 @@
     }
     
 }
-module.exports=Pokemon
