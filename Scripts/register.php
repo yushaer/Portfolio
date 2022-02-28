@@ -24,7 +24,7 @@ function send_email($email,$username,$token){
 	$message="<html>
 	<head></head>
 	<body> <p> please verify your email
-	<a href='https://www.yushae.com/Seng300/verify?username=" . $username . "&token=" . $token . "'>link.</a>
+	<a href='https://yr-hospital-management-system.herokuapp.com/verify?username=" . $username . "&token=" . $token . "'>link.</a>
 
 	</p></body></html>";
 	$headers[] = 'MIME-Version: 1.0';
@@ -72,7 +72,7 @@ if (isset($_POST["submit2"])){
 							if($connection->query($sql)){
 								$GLOBALS['errmsg']= "Account created successfully";
 								send_email($_POST['email'],$_POST['username'],$vtoken);
-								header("Location: https://www.yushae.com/Seng300/Login");
+								header("Location: https://yr-hospital-management-system.herokuapp.com/Login");
 								$connection->close();
 							}
 							else{
@@ -90,14 +90,14 @@ if (isset($_POST["submit2"])){
 			}
 			else{
 			$GLOBALS['errmsg'] = "That is not a valid email";
-			header("Location: https://www.yushae.com/Seng300/Register?errmsg=".$GLOBALS['errmsg']."");
+			header("Location: https://yr-hospital-management-system.herokuapp.com/Register?errmsg=".$GLOBALS['errmsg']."");
 			}
 		
 		}
 		else{
 				$GLOBALS['errmsg']= "Your Passwords dont match";
 
-			header("Location: https://www.yushae.com/Seng300/Register?errmsg=".$GLOBALS['errmsg']."");
+			header("Location: https://yr-hospital-management-system.herokuapp.com/Register?errmsg=".$GLOBALS['errmsg']."");
 		}
 
 	}
@@ -117,7 +117,7 @@ function is_full(){
 	foreach ($fields as $field) {
 		if(empty($_POST[$field])){
 			$GLOBALS['errmsg']= $field." is not filled. ";
-			header("Location: https://www.yushae.com/Seng300/Register?errmsg=".$GLOBALS['errmsg']."");
+			header("Location: https://yr-hospital-management-system.herokuapp.com/Register?errmsg=".$GLOBALS['errmsg']."");
 			return false;
 		}
 		else{

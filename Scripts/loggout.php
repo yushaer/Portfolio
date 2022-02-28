@@ -18,11 +18,11 @@ if(isset($_SESSION["username"] )){
 	if(isset($_POST['Logout'])||isset($_GET['Logout'])){
 		session_unset();
 		session_destroy();
-		header("Location: https://www.yushae.com/Seng300/Login");
+		header("Location: https://yr-hospital-management-system.herokuapp.com/Login");
 	}
 }
 else{
-	header("Location: https://www.yushae.com/Seng300/Login");
+	header("Location: https://yr-hospital-management-system.herokuapp.com/Login");
 }
 
 

@@ -22,20 +22,20 @@ $errmsg="";
                         $sql = "UPDATE Users SET password='$password' WHERE Username='".$username."'";
                         if($connection->query($sql)){
                             $GLOBALS['errmsg'] = "Your Password has been reset";
-                            header("Location: https://www.yushae.com/Seng300/Reset_Password?errmsg=".$GLOBALS['errmsg']."");
+                            header("Location: https://yr-hospital-management-system.herokuapp.com/Reset_Password?errmsg=".$GLOBALS['errmsg']."");
                             $connection->close();
                         }
                     }else{
                         $GLOBALS['errmsg'] = "You are not logged in";
-                        header("Location: https://www.yushae.com/Seng300/Reset_Password?errmsg=".$GLOBALS['errmsg']."");    
+                        header("Location: https://yr-hospital-management-system.herokuapp.com/Reset_Password?errmsg=".$GLOBALS['errmsg']."");    
                     }
                 }else{
                     $GLOBALS['errmsg'] = "Your Passwords dont match";
-                    header("Location: https://www.yushae.com/Seng300/Reset_Password?errmsg=".$GLOBALS['errmsg']."");
+                    header("Location: https://yr-hospital-management-system.herokuapp.com/Reset_Password?errmsg=".$GLOBALS['errmsg']."");
                 }
             }else{
                 $GLOBALS['errmsg'] = "Missing field";
-                header("Location: https://www.yushae.com/Seng300/Reset_Password?errmsg=".$GLOBALS['errmsg']."");
+                header("Location: https://yr-hospital-management-system.herokuapp.com/Reset_Password?errmsg=".$GLOBALS['errmsg']."");
             }
         }
 
@@ -51,7 +51,7 @@ function is_full(){
 	foreach ($fields as $field) {
 		if(empty($_POST[$field])){
 			$GLOBALS['errmsg']= $field." is not filled. ";
-			header("Location: https://www.yushae.com/Seng300/Reset_Password?errmsg=".$GLOBALS['errmsg']."");
+			header("Location: https://yr-hospital-management-system.herokuapp.com/Reset_Password?errmsg=".$GLOBALS['errmsg']."");
 			return false;
 		}
 		else{

@@ -19,16 +19,16 @@
             <span class="fas fa-user"></span> Create Accounts </a>
         
             <div class="dropdown-menu mm-menu ">
-           <a class="dropdown-item" href="yushae.com/Seng300/Admin/Create"><span class="fas fa-user"></span> Sign Up Admins</a>
-                <a class="dropdown-item" href="yushae.com/Seng300/Admin/CreateDocters"><span class="fas fa-user"></span> Sign Up Docters</a>
+           <a class="dropdown-item" href="https://yr-hospital-management-system.herokuapp.com/Admin/Create"><span class="fas fa-user"></span> Sign Up Admins</a>
+                <a class="dropdown-item" href="https://yr-hospital-management-system.herokuapp.com/Admin/CreateDocters"><span class="fas fa-user"></span> Sign Up Docters</a>
             </div>
           </li>
           
             <li class="nav-item ">
-            <a class="nav-link" href="https://www.yushae.com/Seng300/Admin">Admin</a>
+            <a class="nav-link" href="https://yr-hospital-management-system.herokuapp.com/Admin">Admin</a>
         </li>
              <li class="nav-item ">
-            <a class="nav-link" href="https://www.yushae.com/Seng300/Booking">Make Appointments</a>
+            <a class="nav-link" href="https://yr-hospital-management-system.herokuapp.com/Booking">Make Appointments</a>
         </li>
   
            
@@ -37,8 +37,8 @@
              <i class="fa fa-user"></i> 	<?php  session_start();
               echo $_SESSION["username"];	?></a>
             <div class="dropdown-menu mm-menu">
-             <a class="dropdown-item" href="yushae.com/Seng300/Reset_Password">Change password</a>
-              <a class="dropdown-item" href="/Seng300/Scripts/loggout(Admin).php?Logout=true">Log out</a>
+             <a class="dropdown-item" href="https://yr-hospital-management-system.herokuapp.com/Reset_Password">Change password</a>
+              <a class="dropdown-item" href="/Scripts/loggout(Admin).php?Logout=true">Log out</a>
             </div>
           </li>
              

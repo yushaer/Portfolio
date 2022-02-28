@@ -55,7 +55,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 	    }
 	    if($login  &&$email_verify){
 		    	echo "login success";
-		    	header("Location: https://www.yushae.com/Seng300/");
+		    	header("Location: https://yr-hospital-management-system.herokuapp.com/");
 	    	
 	    }
 	    else{
@@ -72,7 +72,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 	    }
 	    session_unset();
 	    	session_destroy();
-	    	header("Location: https://www.yushae.com/Seng300/Login?errmsg=$errmsg");
+	    	header("Location: https://yr-hospital-management-system.herokuapp.com/Login?errmsg=$errmsg");
 	    	
 	    	
 	    }
@@ -80,7 +80,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 	else{
 
 		$errmsg= "please fill in your username and password";
-		  	header("Location: https://www.yushae.com/Seng300/Login?errmsg=$errmsg");
+		  	header("Location: https://yr-hospital-management-system.herokuapp.com/Login?errmsg=$errmsg");
 	}
 
 

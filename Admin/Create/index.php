@@ -245,7 +245,7 @@ function is_full(){
 	<input  type="submit" name="submit2" class="btn btn-primary sub" value="Create Account">
 </div>
 	<div class="form-group center-btn">
-		<p> Already have a account <a class="link" href="https://www.yushae.com/Seng300/Login">Sign in!</a></p>
+		<p> Already have a account <a class="link" href="https://yr-hospital-management-system.herokuapp.com/Login">Sign in!</a></p>
 	</div>
 </div>
 </form>
