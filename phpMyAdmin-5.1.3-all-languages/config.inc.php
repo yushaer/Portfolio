@@ -11,10 +11,10 @@ $i = 0;
 /* Server: us-cdbr-east-05.cleardb.net/heroku_25978711a046d74 [1] */
 $i++;
 $cfg['Servers'][$i]['verbose'] = '';
-$cfg['Servers'][$i]['host'] = 'us-cdbr-east-05.cleardb.net/heroku_25978711a046d74';
+$cfg['Servers'][$i]['host'] = 'us-cdbr-east-05.cleardb.net';
 $cfg['Servers'][$i]['port'] = '';
 $cfg['Servers'][$i]['socket'] = '';
-$cfg['Servers'][$i]['auth_type'] = 'cookie';
+$cfg['Servers'][$i]['auth_type'] = 'config';
 $cfg['Servers'][$i]['user'] = 'ba6fe5beb4aea7';
 $cfg['Servers'][$i]['password'] = 'df317775';
 
