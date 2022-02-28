@@ -9,7 +9,7 @@ $(document).ready(function() {
      
          $.ajax({
         type:"POST",
-        url: '/Seng300/Scripts/files.php',
+        url: '/Scripts/files.php',
         data:{Name:"Menu/Menu.html"},
         success:function(data) {   
                 $('.navb').prepend(data);
