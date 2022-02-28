@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Introduction:
+A react.js project that I made to showcase my skills in react.js framework which function is to let you build Pokemon Teams for use in competivite Pokemon. You can view the live demo at this link https://yushaer.github.io/pokemon-team-builder/
 
 ## Available Scripts
 
