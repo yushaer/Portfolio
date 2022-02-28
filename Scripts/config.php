@@ -14,10 +14,10 @@ if(!isset($_SESSION))
     { 
         session_start(); 
     } 
-$servername="localhost"; //ljmm zvtikbf !!!
-$username="root";
-$password= "yus123";
-$database= "Hospital Managment";
+$servername="us-cdbr-east-05.cleardb.net"; //ljmm zvtikbf !!!
+$username="ba6fe5beb4aea7";
+$password= "df317775";
+$database= "heroku_25978711a046d74";
 $connection = new mysqli($servername, $username, $password, $database);
 if ($connection->connect_error) {
 	die("Connection Failed: " . $connection->connect_error);
