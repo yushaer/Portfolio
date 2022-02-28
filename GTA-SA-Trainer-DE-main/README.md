@@ -10,7 +10,6 @@ up/down or w/s to cycle between option
 enter to select
 t to goback
 Credits:
-Special thanks to XDMS for DisableTextMissing.asi
 Seemann for CLEO REDUX
 Known issues
 sometimes the part of the menu  will get stuck on the screen and u gotta press F4 then t to get rid of it
