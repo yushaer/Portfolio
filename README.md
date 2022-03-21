@@ -10,3 +10,5 @@ GTA SA DE Menu System For Cleo Redux - this is a library/plugin for [Cleo Redux]
 GTA-SA-Trainer - One the first majour script mods released for GTA SA definitive edition that is basicaly a mod in game that lets you modify many things in game like player gravity, spawning in vehicles,  teleporting
 
 Pokemon Team Builder - A react.js project that I made to showcase my skills in react.js framework which function is to let you build Pokemon Teams for use in competivite Pokemon. You can view the live demo at this link https://yushaer.github.io/pokemon-team-builder/
+
+Movie Watchlist - A Full Stack Web App made with the MERN Stack, which is a movie watch list allowing users to make an account on the app and create / manage there movies watch list, it also allows users find movies straight from the app which was made possible via the use of the movie database api  and add it to their watch list store on MongoDb. You can view the live demo at [here](https://pro-movie-watchlist.netlify.app/) or access most uptodate source code [here](https://github.com/yushaer/MovieWatchList).
